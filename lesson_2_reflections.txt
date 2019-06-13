@@ -1,0 +1,13 @@
+Q1. What happens when you initialize a repository? Why do you need to do it?
+
+A .git directory is created inside the working directory which tracks all the
+changes done in working directory. It is the first step to create git
+repository for working directory.
+
+Q2. How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+A. The differences between working directory and repository is tracked by
+staging area. Before making any commit to repository, first the files are added
+in staging area so that in single commit all logically related files can be
+moved to repository.
