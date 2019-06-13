@@ -11,3 +11,11 @@ A. The differences between working directory and repository is tracked by
 staging area. Before making any commit to repository, first the files are added
 in staging area so that in single commit all logically related files can be
 moved to repository.
+
+Q3. How can you use the staging area to make sure you have one commit per
+logical change?
+
+A. First add all the files per logical changes which will go to staging area.
+Further commit the changes which will move the changes from staging area to
+repository. So, to have one commit per logical change first add all files per
+logical change then commit the changes to repository.
