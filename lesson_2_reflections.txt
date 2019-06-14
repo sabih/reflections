@@ -19,3 +19,10 @@ A. First add all the files per logical changes which will go to staging area.
 Further commit the changes which will move the changes from staging area to
 repository. So, to have one commit per logical change first add all files per
 logical change then commit the changes to repository.
+
+Q4. What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+A. When a team member is working on some features which is for experimental
+purpose or a feature that might be needed in next release then a new branch can
+be created for this feature.
