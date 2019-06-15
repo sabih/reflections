@@ -26,3 +26,9 @@ history organized? How would branches help?
 A. When a team member is working on some features which is for experimental
 purpose or a feature that might be needed in next release then a new branch can
 be created for this feature.
+
+Q. How do the diagrams help you visualize the branch structure?
+
+A. Diagrams help to track the complete history made in the repository along with
+all branch details. It also helps to track the lost commit which won't be
+displayed in git log.
