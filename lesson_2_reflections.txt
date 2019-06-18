@@ -32,3 +32,11 @@ Q. How do the diagrams help you visualize the branch structure?
 A. Diagrams help to track the complete history made in the repository along with
 all branch details. It also helps to track the lost commit which won't be
 displayed in git log.
+
+Q. What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+A. Two features worked on different branches can be combined together to have
+both the features available on a single branch. The branch diagram helps in
+understanding what commits are added on which branch and how to make a merge
+properly so that we don't abandon any commits from any branches.
