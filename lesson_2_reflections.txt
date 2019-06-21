@@ -40,3 +40,17 @@ A. Two features worked on different branches can be combined together to have
 both the features available on a single branch. The branch diagram helps in
 understanding what commits are added on which branch and how to make a merge
 properly so that we don't abandon any commits from any branches.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+A. Pros of Git’s automatic merging vs. always doing merges manually:
+Git's automatic merging makes it easier to combine two feature together
+developed on two different branches.
+Manual merging will be time consuming.
+
+Cons of Git’s automatic merging vs. always doing merges manually:
+After merging two branches together, the git diff command will show the
+difference with the previous commit as per timestamp but not with its parent.
+This can be resolved using git show to check the differences with parent commit.
+Manual merging will help in detecting if any conflict arises while merging.
