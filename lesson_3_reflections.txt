@@ -13,3 +13,11 @@ A. If two persons are working on same branch and git pulls automatically the
 changes pushed by another person, it might break the functionality of the person
 so it is better to pull changes manually when a person is done with his/her
 functionality.
+
+Q. Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+A. Forks are used to copy a repository from github to github.
+Clones are used to cpoy a repository from github to local and local to local.
+Branches works on a single repository. We might use push and pull to a
+repository but branch exist on a repository.
