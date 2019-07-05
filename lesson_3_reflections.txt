@@ -21,3 +21,16 @@ A. Forks are used to copy a repository from github to github.
 Clones are used to cpoy a repository from github to local and local to local.
 Branches works on a single repository. We might use push and pull to a
 repository but branch exist on a repository.
+
+Q. What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+A. If the changes are done locally and in between some other user pushed the new
+changes to Github then, the last known state of the remote stored locally will
+help to inspect the difference between
+i. local changes,
+ii. the changes done by another person and
+iii. previous state of remote stored locally.
+
+In short the last known state of the remote stored in local will help in
+collaboration.
