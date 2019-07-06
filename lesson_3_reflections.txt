@@ -45,3 +45,14 @@ The collaborators need to review whole file that another user shared and put
 your changes in proper location then share back the files again.
 
 That will be too cumbersome so Git and GitHub is very important to collaborate.
+
+Q. When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+A. For an experimental functionality, a separate branch can be created and if
+it is successful then further can be merged to master.
+
+Also it is always better to have a development branch separately if multiple
+persons are working on a single project so that master branch won't break if
+bad commit is pushed. Reviewer can have a look before merging into master and
+also suggest some changes as per the requirement.
