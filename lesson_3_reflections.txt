@@ -34,3 +34,14 @@ iii. previous state of remote stored locally.
 
 In short the last known state of the remote stored in local will help in
 collaboration.
+
+Q. How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+A. Without using Git or GitHub we can use Dropbox to share the file changes.
+The easier part will be never to deal with conflicts or git commands.
+But the harder part will be too hard in comparison to easier part:
+The collaborators need to review whole file that another user shared and put
+your changes in proper location then share back the files again.
+
+That will be too cumbersome so Git and GitHub is very important to collaborate.
